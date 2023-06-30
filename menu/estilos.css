@@ -63,6 +63,7 @@ figcaption:hover {
 
 nav menu {
     display: vertical block;
+    
 }
 
 nav ul {
@@ -72,11 +73,12 @@ nav ul {
 }
 
 nav li {
+    width: 500px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20pt;
     background-color: rgb(179, 178, 178);
     padding: 10px;
-    margin-right: 680px;
+    /* margin-right: 680px; */
     margin-top: 10px;
     text-align: center;
     box-shadow: 2px 2px 5px 2px black;
