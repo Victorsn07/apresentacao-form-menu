@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <div class="box">
+    <fieldset>
+      <legend><b> Dados Pessoais </b></legend>
+
+      <form action="../menu/Quem é Victor.html" method="post" autocomplete="on">
+        
+        <p><label for="nome">Nome :</label>
+          <input class="nome" type="text" name="nome" id="nome" size="20" minlength="1" placeholder="Digite Seu Nome">
+        </p>
+
+        <p><label for="sobrenome">Sobrenome :</label>
+          <input class="sobrenome" type="text" name="sobrenome" id="sobrenome"  minlength="1" placeholder="Digite Seu Sobrenome">
+        </p>
+
+        <p><label class="nasc" for="data">Data Nascimento :</label>
+          <input class="data" type="date" name="data" id="data">
+        </p>
+
+
+        <p><label for="senha">Senha :</label>
+          <input class="senha" type="password" name="senha" id="senha" minlength="8" maxlength="14" size="12" placeholder="min 8 carecter">
+        </p>
+
+        <input class="botao" type="submit" value="Enviar">
+
+      </form>
+    </fieldset>
+  </div>
+</body>
+
+</html>
