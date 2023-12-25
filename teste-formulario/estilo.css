@@ -4,22 +4,23 @@ body {
 }
 
 .box {
-    width: 500px;
+    width: 450px;
     margin: auto;
-    margin-top: 3%;
-    font-size: 25pt;
+    margin-top: 50px;
+    font-size: 17pt;
     background-color: rgba(0, 0, 0, .7);
-    padding: 15px;
-    padding-top: 20px;
+    padding: 5px;
+    padding-top: 13px;
     border-radius: 15px;
 }
 
 fieldset {
     border-color: white;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 legend {
+    text-transform: uppercase;
     color: white;
     text-align: center;
     border: 2px solid white;
@@ -31,7 +32,7 @@ legend {
 
 input {
     color: black;
-    font-size: 15pt;
+    font-size: 13pt;
     padding: 8px;
     margin-top: 6%;
 }
@@ -39,14 +40,14 @@ input {
 input:hover {
     color: white;
     background-color: rgba(0, 0, 0, .3);
-    
+
 }
 
-.nasc{
-    font-size: 23pt;
-    }
+.nasc {
+    font-size: 18pt;
+}
 
-input#data{
+input#data {
     float: right;
     text-align: center;
     text-transform: uppercase;
@@ -63,8 +64,8 @@ label {
     color: white;
 }
 
-.botao{
+.botao {
     padding-left: 100px;
     padding-right: 100px;
     margin-left: 20%;
- }
+}
